@@ -1,0 +1,22 @@
+requirements_content = """# Requirements pour Income Prediction Project
+
+# Data manipulation
+pandas==2.1.4
+numpy==1.26.2
+
+# Machine Learning
+scikit-learn==1.3.2
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Utilities
+jupyter==1.0.0
+notebook==7.0.6
+"""
+
+with open('income-prediction-ml/requirements.txt', 'w', encoding='utf-8') as f:
+    f.write(requirements_content)
+
+print("✅ requirements.txt créé")
